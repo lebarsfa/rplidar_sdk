@@ -40,7 +40,7 @@
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IntDir>$(SolutiaonDir)\..\..\obj\win32\$(ProjectName)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)\..\..\obj\win32\$(ProjectName)\$(Configuration)\</IntDir>
     <OutDir>$(SolutionDir)\..\..\output\win32\$(Configuration)\</OutDir>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
